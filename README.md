@@ -1,7 +1,7 @@
 # Car Make and Model Classification using Xception
 
-## Project Overview
-This project identifies the make and model of vehicles from images using the Xception deep learning architecture.
+## Overview
+This project uses the Xception deep learning architecture to classify car makes and models from images. The model is trained on the Stanford Cars Dataset using transfer learning techniques.
 
 ## Dataset
 Stanford Cars Dataset:
@@ -13,10 +13,20 @@ https://www.kaggle.com/datasets/eduardo4jesus/stanford-cars-dataset
 - Keras
 - Xception
 - NumPy
+- Pandas
 - Matplotlib
 
-## Model
-Transfer learning using the Xception architecture.
+## Features
+- Image preprocessing and augmentation
+- Transfer learning using Xception
+- Car make and model classification
+- Model evaluation and prediction
 
-## Results
-The model can classify different car makes and models based on image features.
+## How to Run
+1. Install dependencies from requirements.txt
+2. Download the Stanford Cars Dataset
+3. Update dataset paths in the notebook
+4. Run the notebook
+
+## Author
+Meghana Bharata
